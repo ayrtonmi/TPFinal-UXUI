@@ -1,0 +1,100 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+header {
+    background-color: #1d3557;
+    color: white;
+    padding: 3rem 2rem;
+}
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+header h3 {
+    background-color: #e63946;
+    padding: 20px auto;
+    text-align: center;
+    color: #f1faee;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.container {
+    width: 400px;
+    margin: auto;
+}
+.container2 {
+    display: flex;  
+    justify-content: space-between;  
+    width: 100%; 
+    flex-wrap: wrap; 
+    margin: auto;
+}
+
+
+section div{
+    transition: all 0.3s ease;
+    background-color: #457b9d;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+
+}
+section div:hover{
+    box-shadow: 0 0.1rem 0.5rem rgba(23, 23, 141, 0.3);
+}
+
+section div h2, section div p {
+    margin: 1rem;
+    color: white;
+}
+
+section div p{
+    text-align: justify;
+}
+section div p i{
+    color: white;
+}
+
+footer {
+    background-color: #1d3557;
+    padding: 3rem;
+    color: white;
+
+}
+
+footer section {
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+footer a {
+    transition: color 0.4s ease;
+    color: white;
+    text-decoration: none;
+    margin: auto 15px;
+}
+footer a:hover{
+    color: cornflowerblue
+}
